@@ -1,4 +1,123 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+    .container-1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .one{
+        flex-basis: 100%;
+        height: 200px;
+        background-color: greenyellow;
+        margin: 10px;
+    }
+    .container-2{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .two{
+        flex-basis: 30%;
+        height: 200px;
+        background-color: skyblue;
+        margin: 10px;
+    }
+    .container-3{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .three{
+        flex-basis: 20%;
+        height: 200px;
+        background-color: gray;
+        margin: 10px;
+    }
+
+    @media screen and (max-width:900px) {
+        .one{
+            height: 150px;
+        }
+        .two{
+            flex-basis: 100%;
+            height: 100px;
+        }
+        .three{
+            flex-basis: 40%;
+            height: 100px;
+        }
+    }
+
+    @media screen and (max-width:600px) {
+        .one{
+            height: 100px;
+        }
+        .two{
+            height: 150px;
+        }
+        .three{
+            flex-basis: 100%;
+        }
+    }
+
+</style>
+
+<div>
+    <div class="container-1">
+        <div class="one"></div>
+    </div>
+    <div class="container-2">
+        <div class="two"></div>
+        <div class="two"></div>
+        <div class="two"></div>
+    </div>
+    <div class="container-3">
+        <div class="three"></div>
+        <div class="three"></div>
+        <div class="three"></div>
+        <div class="three"></div>
+    </div>
+</div>
+
+<!-- <meta name="viewport" content="device-width, initial-scale=1.0">
+
+<style>
+    .container{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .one{
+        background-color: greenyellow;
+        /* width: 100px; */
+        flex-basis: 20%;
+        height: 100px;
+        margin: 10px;
+    }
+
+    @media screen and (max-width:800px){
+        .one{
+            flex-basis: 40%;
+        }
+    }
+
+    @media screen and (max-width:400px){
+        .one{
+            flex-basis: 100%;
+        }
+    }
+</style>
+
+<div class="container">
+    <div class="one"></div>
+    <div class="one"></div>
+    <div class="one"></div>
+    <div class="one"></div>
+</div> -->
+
+
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
     .one{
         width: 100px;
@@ -17,7 +136,7 @@
 <div>
     <div class="one"></div>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus natus excepturi autem consectetur ratione necessitatibus obcaecati id cumque corporis delectus suscipit, esse quae aut modi dolorum! Non temporibus possimus quasi ullam id cumque dolorum quod soluta consequuntur tempore, in dolorem quis at illum quas ratione voluptatem voluptates, nulla voluptas eos.</p>
-</div>
+</div> -->
 
 
 <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
